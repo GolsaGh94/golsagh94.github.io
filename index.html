@@ -1,0 +1,193 @@
+---
+layout: default
+title: "Golsa Ghasemi, M.D."
+description: "Personal academic website for Dr. Golsa Ghasemi."
+---
+
+<main id="main">
+  <section class="hero-band">
+    <div class="main-content hero">
+      <div class="profile-mark" aria-hidden="true">
+        <span>GG</span>
+        <small>Medicine</small>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">Independent researcher and general physician</p>
+        <h1>Golsa Ghasemi, M.D.</h1>
+        <p class="lead">Medical doctor focused on nephrology, kidney transplantation, hemodialysis, nephrolithiasis, acute kidney injury, cardiovascular research, and clinical practice guidelines.</p>
+        <div class="contact-actions" aria-label="Professional links">
+          <a href="mailto:{{ site.data.profile.email }}">Email</a>
+          <a href="{{ site.data.profile.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="{{ site.data.profile.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="main-content section-grid" aria-label="Profile summary">
+    {% for item in site.data.profile.quick_facts %}
+      <div class="fact">
+        <span>{{ item.label }}</span>
+        <strong>{{ item.value }}</strong>
+      </div>
+    {% endfor %}
+  </section>
+
+  <section class="main-content section" id="about">
+    <div class="section-heading">
+      <p class="eyebrow">About</p>
+      <h2>Clinical and research profile</h2>
+    </div>
+    <div class="prose">
+      {% for paragraph in site.data.profile.summary %}
+        <p>{{ paragraph }}</p>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="main-content section" id="research-interests">
+    <div class="section-heading">
+      <p class="eyebrow">Research interests</p>
+      <h2>Kidney disease, cardiovascular medicine, and clinical care</h2>
+    </div>
+    <div class="interest-columns">
+      <article>
+        <h3>Nephrology</h3>
+        <ul class="tag-list">
+          {% for item in site.data.profile.research_interests.kidney %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </article>
+      <article>
+        <h3>Cardiovascular medicine</h3>
+        <ul class="tag-list">
+          {% for item in site.data.profile.research_interests.cardiovascular %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </article>
+      <article>
+        <h3>Broader clinical interests</h3>
+        <ul class="tag-list">
+          {% for item in site.data.profile.research_interests.broader_clinical %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="main-content section" id="publications">
+    <div class="section-heading section-heading-row">
+      <div>
+        <p class="eyebrow">Publications</p>
+        <h2>Peer-reviewed work</h2>
+      </div>
+      <a class="text-link" href="{{ '/publications/' | relative_url }}">View publication page</a>
+    </div>
+    <ol class="publication-list">
+      {% for pub in site.data.publications %}
+        <li>
+          <p>{{ pub.citation | replace: "Ghasemi G", "<strong>Ghasemi G</strong>" }} <a href="{{ pub.cv_link }}" target="_blank" rel="noopener">(Link)</a></p>
+          {% if pub.links %}
+            <div class="paper-links">
+              {% for link in pub.links %}
+                <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <section class="main-content section" id="experience">
+    <div class="section-heading">
+      <p class="eyebrow">Experience</p>
+      <h2>Clinical and research roles</h2>
+    </div>
+    <div class="timeline">
+      {% for role in site.data.experience %}
+        <article class="timeline-item">
+          <div class="timeline-date">{{ role.date }}</div>
+          <div class="timeline-body">
+            <h3>{{ role.title }}</h3>
+            <p class="organization">{{ role.organization }}</p>
+            <ul>
+              {% for point in role.description %}
+                <li>{{ point }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="main-content section" id="education">
+    <div class="section-heading">
+      <p class="eyebrow">Education</p>
+      <h2>Medical training</h2>
+    </div>
+    <div class="simple-list">
+      {% for item in site.data.education %}
+        <article>
+          <span>{{ item.date }}</span>
+          <h3>{{ item.degree }}</h3>
+          <p>{{ item.institution }}</p>
+          <p>{{ item.detail }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="main-content section" id="presentations">
+    <div class="section-heading">
+      <p class="eyebrow">Presentations and projects</p>
+      <h2>Registry, research map, and nephrology congress work</h2>
+    </div>
+    <div class="work-list">
+      {% for item in site.data.presentations %}
+        <article>
+          <span>{{ item.date }}</span>
+          <h3>{{ item.title }}</h3>
+          <p class="organization">{{ item.venue }}</p>
+          <p>{{ item.detail }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="main-content section" id="voluntary-work">
+    <div class="section-heading">
+      <p class="eyebrow">Guidelines and voluntary work</p>
+      <h2>Clinical practice guideline and community work</h2>
+    </div>
+    <div class="work-list compact">
+      {% for item in site.data.voluntary %}
+        <article>
+          <span>{{ item.date }}</span>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.detail }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="contact-band" id="contact">
+    <div class="main-content contact-section">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Professional links</h2>
+        <p>For academic and research correspondence, contact Dr. Ghasemi by email or through her public profiles.</p>
+      </div>
+      <address class="contact-card">
+        <!-- Personal phone number omitted for privacy. -->
+        <a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a>
+        <a href="{{ site.data.profile.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="{{ site.data.profile.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+      </address>
+    </div>
+  </section>
+</main>

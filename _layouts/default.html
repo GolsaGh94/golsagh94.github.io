@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% if page.title and page.title != site.title %}
+    <title>{{ page.title }} | {{ site.title }}</title>
+  {% else %}
+    <title>{{ site.title }}</title>
+  {% endif %}
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="nav-logo" href="{{ '/' | relative_url }}" aria-label="Golsa Ghasemi home">
+        <span>Golsa Ghasemi</span>
+        <small>M.D.</small>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Menu</span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/#research-interests' | relative_url }}">Research</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+        <li><a href="{{ '/#experience' | relative_url }}">Experience</a></li>
+        <li><a href="{{ '/#presentations' | relative_url }}">Projects</a></li>
+        <li><a href="{{ '/#contact' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  {{ content }}
+
+  <footer class="site-footer">
+    <p>&copy; {{ 'now' | date: "%Y" }} Dr. {{ site.data.profile.name }}</p>
+  </footer>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('.nav-toggle');
+      var links = document.querySelector('.nav-links');
+      if (!toggle || !links) return;
+
+      function setOpen(open) {
+        links.classList.toggle('is-open', open);
+        toggle.classList.toggle('is-open', open);
+        toggle.setAttribute('aria-expanded', String(open));
+      }
+
+      toggle.addEventListener('click', function () {
+        setOpen(!links.classList.contains('is-open'));
+      });
+
+      links.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', function () {
+          setOpen(false);
+        });
+      });
+
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') setOpen(false);
+      });
+    }());
+  </script>
+</body>
+</html>

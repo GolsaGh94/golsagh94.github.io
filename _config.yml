@@ -1,0 +1,13 @@
+title: "Golsa Ghasemi, M.D."
+description: "Academic website for Dr. Golsa Ghasemi, an independent researcher and general physician focused on nephrology, cardiovascular medicine, and clinical practice guidelines."
+url: "https://golsagh94.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
