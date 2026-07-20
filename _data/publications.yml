@@ -1,11 +1,11 @@
-- citation: "Mortazavi M, Shahidi S, Vaezi A, Maracy M, Hajiani MA, Malekinejad A, Ghasemi G. Hospitalization Causes in Kidney Transplant Recipients: A Cross-Sectional Study from Isfahan, Iran. 2026. Iranian Journal of Kidney Diseases, 20(03), 131-137."
+- citation: "Mortazavi M, Shahidi S, Vaezi A, Maracy M, Hajiani MA, Malekinejad A, Ghasemi G. Hospitalization Causes in Kidney Transplant Recipients: A Cross-Sectional Study from Isfahan, Iran. Iranian Journal of Kidney Diseases. 2026;20(03):131-137."
   year: 2026
-  cv_link: "https://ijkd.org/index.php/ijkd/article/view/9421"
+  cv_link: "https://ijkd.org/index.php/ijkd/article/view/9421/1906"
   links:
     - label: "Article"
-      url: "https://ijkd.org/index.php/ijkd/article/view/9421"
+      url: "https://ijkd.org/index.php/ijkd/article/view/9421/1906"
 
-- citation: "Ghasemi G, Shahidi S. Sirolimus-Induced Pulmonary Toxicity without Recurrence more than 8 Years after Everolimus Replacement in a Renal Transplant Patient with Recurrent Skin SCC: A Case Report. BMC Nephrology. 2024. doi: 10.1186/s12882-024-03661-4."
+- citation: "Ghasemi G, Shahidi S. Sirolimus-induced pulmonary toxicity without recurrence more than 8 years after everolimus replacement in a renal transplant patient with recurrent skin SCC: a case report. BMC Nephrology. 2024;25(1):406. doi: 10.1186/s12882-024-03661-4."
   year: 2024
   cv_link: "https://pubmed.ncbi.nlm.nih.gov/39533221/"
   links:
@@ -14,7 +14,7 @@
     - label: "PubMed"
       url: "https://pubmed.ncbi.nlm.nih.gov/39533221/"
 
-- citation: "Sadeghi M, Askari A, Bostan F, Heidari A, Rafiee H, Alavi Tabatabaei G, Ghasemi G, Roohafza H, Impact of cardiac rehabilitation on erectile dysfunction in cardiovascular patients: a systematic review and meta-analysis, Sexual Medicine. 2024; Volume 12, Issue 3, qfae043, doi: 10.1093/sexmed/qfae043."
+- citation: "Sadeghi M, Askari A, Bostan F, Heidari A, Rafiee H, Alavi Tabatabaei G, Ghasemi G, Roohafza H. Impact of cardiac rehabilitation on erectile dysfunction in cardiovascular patients: a systematic review and meta-analysis. Sexual Medicine. 2024;12(3):qfae043. doi: 10.1093/sexmed/qfae043."
   year: 2024
   cv_link: "https://academic.oup.com/smoa/article/12/3/qfae043/7702062"
   links:
@@ -22,8 +22,10 @@
       url: "https://doi.org/10.1093/sexmed/qfae043"
     - label: "Article"
       url: "https://academic.oup.com/smoa/article/12/3/qfae043/7702062"
+    - label: "PubMed"
+      url: "https://pubmed.ncbi.nlm.nih.gov/38953013/"
 
-- citation: "Sarrafzadegan N, Bagheri F, Shahidi S, Ghasemi G, Shirvani E, Rajati F, et al. Development of the Iranian clinical practice guidelines for the diagnosis, treatment, and secondary prevention of acute coronary syndrome. Journal of Research in Medical Sciences 29(1):32, 2024. doi: 10.4103/jrms.jrms_851_23."
+- citation: "Sarrafzadegan N, Bagherikholenjani F, Shahidi S, Ghasemi G, Shirvani E, Rajati F, et al. Development of the first Iranian clinical practice guidelines for the diagnosis, treatment, and secondary prevention of acute coronary syndrome. Journal of Research in Medical Sciences. 2024;29:32. doi: 10.4103/jrms.jrms_851_23. PMID: 39239072."
   year: 2024
   cv_link: "https://journals.lww.com/jrms/fulltext/2024/07110/development_of_the_first_iranian_clinical_practice.32.aspx"
   links:
@@ -31,8 +33,10 @@
       url: "https://doi.org/10.4103/jrms.jrms_851_23"
     - label: "Article"
       url: "https://journals.lww.com/jrms/fulltext/2024/07110/development_of_the_first_iranian_clinical_practice.32.aspx"
+    - label: "PubMed"
+      url: "https://pubmed.ncbi.nlm.nih.gov/39239072/"
 
-- citation: "Sadeghi M, Askari A, Bostan F, Heidari A, Ghasemi G, Alavi Tabatabaei G, Rafiee H, Karimi R, Roohafza H. Medication Adherence with Polypill in Cardiovascular Disease and High-Risk Patients: A Systematic Review and Meta-Analysis of Randomized Controlled Trials Involving 7364 Participants. Current Problems in Cardiology. 2024;49(1 Pt A):102061. doi: 10.1016/j.cpcardiol.2023.102061."
+- citation: "Sadeghi M, Askari A, Bostan F, Heidari A, Ghasemi G, Alavi Tabatabaei G, Rafiee H, Karimi R, Roohafza H. Medication Adherence With Polypill in Cardiovascular Disease and High-Risk Patients: A Systematic Review and Meta-Analysis of Randomized Controlled Trials Involving 7364 Participants. Current Problems in Cardiology. 2024;49(1 Pt A):102061. doi: 10.1016/j.cpcardiol.2023.102061."
   year: 2024
   cv_link: "https://pubmed.ncbi.nlm.nih.gov/37640178/"
   links:
@@ -41,7 +45,7 @@
     - label: "PubMed"
       url: "https://pubmed.ncbi.nlm.nih.gov/37640178/"
 
-- citation: "Shahidi S, Mortazavi M, Bakhtiari MB, Mirhoseini MS, Ghasemi G. Nutritional vitamin D supplementation in chronic Hemodialysis: An uncontrolled open-label trial. Journal of Education and Health Promotion. 2023; 12:214. doi: 10.4103/jehp.jehp_1507_22."
+- citation: "Shahidi S, Mortazavi M, Bakhtiari MB, Mirhoseini MS, Ghasemi G. Nutritional vitamin D supplementation in chronic hemodialysis: An uncontrolled open-label trial. Journal of Education and Health Promotion. 2023;12:214. doi: 10.4103/jehp.jehp_1507_22."
   year: 2023
   cv_link: "https://pubmed.ncbi.nlm.nih.gov/37546001/"
   links:
@@ -50,23 +54,23 @@
     - label: "PubMed"
       url: "https://pubmed.ncbi.nlm.nih.gov/37546001/"
 
-- citation: "S. Taheri, M. Mortazavi, S. Shahidi, A. Atapour, M. Kazemi Naeini, Z. Zamani, Ghasemi G. Efficacy and Safety of the MPES (Modified Polyethersulfone) Hemodialysis Filters Compared with the Conventional Ones: a non-inferiority clinical trial. Nephro-Urology Monthly. 2023; Vol. 15 Issue 1 Pages e130299. doi: 10.5812/numonthly-130299."
+- citation: "Taheri S, Mortazavi M, Shahidi S, Atapour A, Kazemi Naeini M, Zamani Z, Ghasemi G. Efficacy and Safety of Modified Polyethersulfone Hemodialysis Filters in Comparison to Conventional Filters: A Non-inferiority Clinical Trial. Nephro-Urology Monthly. 2023;15(1):e130299. doi: 10.5812/numonthly-130299."
   year: 2023
-  cv_link: "https://brieflands.com/articles/num-130299"
+  cv_link: "https://brieflands.com/journals/num/articles/130299"
   links:
     - label: "DOI"
       url: "https://doi.org/10.5812/numonthly-130299"
     - label: "Article"
-      url: "https://brieflands.com/articles/num-130299"
+      url: "https://brieflands.com/journals/num/articles/130299"
 
-- citation: "Vahdat S, Shahidi S, Atapour A, Ghasemi G. The Review of the Effects of Vitamin C on the Management of COVID-19.  Journal of Pharmaceutical Negative Results. 2022; Pages 741-751. doi: 10.47750/pnr.2022.13. S07.98."
+- citation: "Vahdat S, Shahidi S, Atapour A, Ghasemi G. The Review Of The Effects Of Vitamin C On The Management Of COVID-19. Journal of Pharmaceutical Negative Results. 2022;741-751. doi: 10.47750/pnr.2022.13.S07.98."
   year: 2022
   cv_link: "https://www.pnrjournal.com/index.php/home/article/view/2585"
   links:
     - label: "Article"
       url: "https://www.pnrjournal.com/index.php/home/article/view/2585"
 
-- citation: "Shahidi S, Ghasemi G. Metabolic Disorders in Patients with Nephrolithiasis in Iran. Iranian Journal of Kidney Diseases. 2022;1(1):1-5. PMID: 35271494."
+- citation: "Shahidi S, Ghasemi G. Metabolic Disorders in Patients with Nephrolithiasis in Iran. Iranian Journal of Kidney Diseases. 2022;16(1):1-5. doi: 10.52547/ijkd.7055. PMID: 35271494."
   year: 2022
   cv_link: "https://pubmed.ncbi.nlm.nih.gov/35271494/"
   links:
@@ -80,7 +84,7 @@
     - label: "PMID"
       url: "https://pubmed.ncbi.nlm.nih.gov/33277457/"
 
-- citation: "Haghani F, Shahidi S, Manoochehri F, Kalantari B, Ghasemi G. The Effect of Distance Learning via SMS on Knowledge &amp; Satisfaction of Pregnant Women. Iranian Journal of Medical Education. 2016; 16 :43-52."
+- citation: "Haghani F, Shahidi S, Manoochehri F, Kalantari B, Ghasemi G. The Effect of Distance Learning via SMS on Knowledge &amp; Satisfaction of Pregnant Women. Iranian Journal of Medical Education. 2016;16:43-52."
   year: 2016
   cv_link: "https://ijme.mui.ac.ir/browse.php?a_id=3980&sid=1&slc_lang=en"
   links:
