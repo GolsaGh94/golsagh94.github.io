@@ -173,9 +173,9 @@ button:focus-visible {
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(280px, 390px);
-  gap: 4rem;
+  gap: 3.4rem;
   align-items: center;
-  padding: 5rem 0 5.4rem;
+  padding: 4.45rem 0 5rem;
 }
 
 .hero-copy {
@@ -235,7 +235,7 @@ h3 {
 }
 
 h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(2.6rem, 5.4vw, 5.2rem);
   font-weight: 700;
@@ -266,13 +266,6 @@ h2::before {
 h3 {
   margin-bottom: 0.35rem;
   font-size: 1rem;
-}
-
-.lead {
-  max-width: 760px;
-  margin-bottom: 1.5rem;
-  color: var(--muted);
-  font-size: 1.18rem;
 }
 
 .contact-actions {
@@ -311,7 +304,7 @@ h3 {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   padding: 0;
-  margin-top: -2.15rem;
+  margin-top: -1.9rem;
   position: relative;
   z-index: 2;
 }
@@ -340,31 +333,24 @@ h3 {
 }
 
 .section {
-  padding: 4.2rem 0;
+  display: grid;
+  grid-template-columns: minmax(150px, 220px) minmax(0, 1fr);
+  gap: 2.4rem;
+  align-items: start;
+  padding: 3.8rem 0;
   border-bottom: 1px solid var(--line-soft);
 }
 
 .section-heading {
-  max-width: 780px;
-  margin-bottom: 1.45rem;
+  max-width: none;
+  margin-bottom: 0;
 }
 
 .section-heading-row {
-  max-width: none;
   display: flex;
-  align-items: end;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 1rem;
-}
-
-.prose {
-  max-width: 860px;
-  color: var(--muted);
-  font-size: 1.03rem;
-}
-
-.prose p:last-child {
-  margin-bottom: 0;
 }
 
 .interest-columns {
@@ -374,11 +360,11 @@ h3 {
 }
 
 .interest-columns article {
-  padding: 1.35rem;
+  padding: 1.2rem;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  box-shadow: 0 14px 32px rgba(22, 33, 42, 0.06);
+  box-shadow: 0 10px 24px rgba(22, 33, 42, 0.05);
 }
 
 .interest-columns h3 {
@@ -414,12 +400,12 @@ h3 {
 .publication-list li {
   position: relative;
   counter-increment: publications;
-  margin-bottom: 0.9rem;
-  padding: 1.2rem 1.2rem 1.2rem 3.3rem;
+  margin-bottom: 0.75rem;
+  padding: 1rem 1.1rem 1rem 3.1rem;
   background: var(--surface);
   border: 1px solid var(--line-soft);
   border-radius: var(--radius);
-  box-shadow: 0 10px 24px rgba(22, 33, 42, 0.04);
+  box-shadow: 0 8px 18px rgba(22, 33, 42, 0.035);
 }
 
 .publication-list li::before {
@@ -470,11 +456,12 @@ h3 {
   display: grid;
   grid-template-columns: 160px minmax(0, 1fr);
   gap: 1.35rem;
-  padding: 1.15rem 1.2rem;
+  padding: 1rem 1.1rem;
   background: var(--surface);
   border: 1px solid var(--line-soft);
+  border-left: 4px solid rgba(8, 117, 109, 0.38);
   border-radius: var(--radius);
-  box-shadow: 0 10px 24px rgba(22, 33, 42, 0.04);
+  box-shadow: 0 8px 18px rgba(22, 33, 42, 0.035);
 }
 
 .timeline-date,
@@ -509,11 +496,12 @@ h3 {
 
 .simple-list article,
 .work-list article {
-  padding: 1.2rem;
+  padding: 1rem 1.1rem;
   background: var(--surface);
   border: 1px solid var(--line-soft);
+  border-left: 4px solid rgba(40, 78, 115, 0.24);
   border-radius: var(--radius);
-  box-shadow: 0 10px 24px rgba(22, 33, 42, 0.04);
+  box-shadow: 0 8px 18px rgba(22, 33, 42, 0.035);
 }
 
 .simple-list p,
@@ -536,14 +524,9 @@ h3 {
 
 .contact-section {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(260px, 360px);
+  grid-template-columns: minmax(150px, 220px) minmax(260px, 420px);
   gap: 2rem;
   align-items: start;
-}
-
-.contact-section p {
-  max-width: 640px;
-  color: var(--muted);
 }
 
 .contact-card {
@@ -614,6 +597,7 @@ h3 {
   }
 
   .section-grid,
+  .section,
   .interest-columns,
   .compact,
   .contact-section {
@@ -661,10 +645,6 @@ h3 {
 
   .section {
     padding: 3rem 0;
-  }
-
-  .lead {
-    font-size: 1.02rem;
   }
 
   h1 {

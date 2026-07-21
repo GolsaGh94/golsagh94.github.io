@@ -10,7 +10,6 @@ description: "Personal academic website for Dr. Golsa Ghasemi."
       <div class="hero-copy">
         <p class="eyebrow">Independent researcher and general physician</p>
         <h1>Golsa Ghasemi, M.D.</h1>
-        <p class="lead">Medical doctor focused on nephrology, kidney transplantation, Hemodialysis, Nephrolithiasis, acute kidney injury, cardiovascular research, and clinical practice guidelines.</p>
         <div class="contact-actions" aria-label="Contact links">
           <a href="mailto:{{ site.data.profile.email }}">Email</a>
           <a href="{{ site.data.profile.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>
@@ -23,24 +22,13 @@ description: "Personal academic website for Dr. Golsa Ghasemi."
     </div>
   </section>
 
-  <section class="main-content section-grid" aria-label="Profile summary">
+  <section class="main-content section-grid" aria-label="CV highlights">
     {% for item in site.data.profile.quick_facts %}
       <div class="fact">
         <span>{{ item.label }}</span>
         <strong>{{ item.value }}</strong>
       </div>
     {% endfor %}
-  </section>
-
-  <section class="main-content section" id="about">
-    <div class="section-heading">
-      <h2>About</h2>
-    </div>
-    <div class="prose">
-      {% for paragraph in site.data.profile.summary %}
-        <p>{{ paragraph }}</p>
-      {% endfor %}
-    </div>
   </section>
 
   <section class="main-content section" id="research-interests">
@@ -171,7 +159,6 @@ description: "Personal academic website for Dr. Golsa Ghasemi."
     <div class="main-content contact-section">
       <div>
         <h2>Contact</h2>
-        <p>For academic and research correspondence, contact Dr. Ghasemi by email or through her public profiles.</p>
       </div>
       <address class="contact-card">
         <!-- Personal phone number omitted for privacy. -->
