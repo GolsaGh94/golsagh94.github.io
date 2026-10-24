@@ -1,3 +1,14 @@
+- citation: "Moeinzadeh F, Motafakeran SH, Mortazavi M, Shahidi S, Ghasemi G. Designing the Data Elements for Patient Registry System for Membranous Nephropathy in Isfahan Province. International Journal of Preventive Medicine. 2026;17:83. doi: 10.4103/ijpvm.ijpvm_48_25. PMID: 42788456."
+  year: 2026
+  cv_link: "https://www.ovid.com/jnls/ijom/fulltext/10.4103/ijpvm.ijpvm_48_25~designing-the-data-elements-for-patient-registry-system-for"
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.4103/ijpvm.ijpvm_48_25"
+    - label: "Article"
+      url: "https://www.ovid.com/jnls/ijom/fulltext/10.4103/ijpvm.ijpvm_48_25~designing-the-data-elements-for-patient-registry-system-for"
+    - label: "PubMed"
+      url: "https://pubmed.ncbi.nlm.nih.gov/42788456/"
+
 - citation: "Mortazavi M, Shahidi S, Vaezi A, Maracy M, Hajiani MA, Malekinejad A, Ghasemi G. Hospitalization Causes in Kidney Transplant Recipients: A Cross-Sectional Study from Isfahan, Iran. Iranian Journal of Kidney Diseases. 2026;20(03):131-137."
   year: 2026
   cv_link: "https://ijkd.org/index.php/ijkd/article/view/9421/1906"
